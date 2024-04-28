@@ -5,11 +5,16 @@ Selam. Burada ortak çalışmayı daha kolay hale getirebilmek için bir repo a�
 
 ---
 
-Project #1 is assigned to Students with ID numbers ending from the right with 1 and 6 
+Project #1 is assigned to Students with ID numbers ending from the right with 1 and 6
+
 Project #2 is assigned to Students with ID numbers ending from the right with 2 and 7 
+
 Project #3 is assigned to Students with ID numbers ending from the right with 3 and 8 
+
 Project #4 is assigned to Students with ID numbers ending from the right with 4 and 9
+
 Project #5 is assigned to Students with ID numbers ending from the right with 0 and 5
+
 
 ### Mini Project 1: Library Management System
 
