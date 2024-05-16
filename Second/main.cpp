@@ -24,12 +24,13 @@ int main() {
     Course course11 (111, "Database Systems", 3, "Dr. Emma Wilson", CourseType::LECTURE);
     Course course12 (112, "Database Systems Lab", 3, "Dr. Emma Wilson", CourseType::LAB);
     Course course13 (113, "Introduction to Operating Systems", 2, "Dr. Michael Davis", CourseType::LECTURE);
-    Course course15 (114, "Artificial Intelligence", 4, "Prof. Christopher Moore", CourseType::LECTURE);
-    Course course16 (115, "Artificial Intelligence Lab", 4, "Prof. Christopher Moore", CourseType::LAB);
-    Course course17 (116, "Machine Learning", 4, "Dr. Sophia Anderson", CourseType::LECTURE);
-    Course course18 (117, "Machine Learning Lab", 4, "Dr. Sophia Anderson", CourseType::LAB);
-    Course course19 (118, "Natural Language Processing", 3, "Prof. Emily Thompson", CourseType::LECTURE);    
-    Course course20 (120, "Full-Stack Web Development" , 4, "Prof. Jane Doe", CourseType::LECTURE);
+    Course course14 (114, "Artificial Intelligence", 4, "Prof. Christopher Moore", CourseType::LECTURE);
+    Course course15 (115, "Artificial Intelligence Lab", 4, "Prof. Christopher Moore", CourseType::LAB);
+    Course course16 (116, "Machine Learning", 4, "Dr. Sophia Anderson", CourseType::LECTURE);
+    Course course17 (117, "Machine Learning Lab", 4, "Dr. Sophia Anderson", CourseType::LAB);
+    Course course18 (118, "Natural Language Processing", 3, "Prof. Emily Thompson", CourseType::LECTURE);    
+    Course course19 (120, "Full-Stack Web Development" , 4, "Prof. Jane Doe", CourseType::LECTURE);
+    Course course20 (121, "Full-Stack Web Development Lab", 4, "Prof. Jane Doe", CourseType::LAB);
     
 
     // Display available courses
