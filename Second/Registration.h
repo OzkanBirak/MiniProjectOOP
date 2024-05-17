@@ -1,30 +1,21 @@
 #include <iostream>
 #include <string>
-#include "Student.h"
-#include "Course.h"
 using namespace std;
 
-#ifndef REGISTRATION_H
-#define REGISTRATION_H
+#ifndef SCHEDULE_H
+#define SCHEDULE_H
 
-class Registration {
+class Schedule {
 private:
-    long int registrationId;
     long int studentId;
     long int courseCode;
-    string registrationDate;
-    string status;
-    string paymentStatus;
+    string semester;
+    string days;
+    string room;
 
 public:
-    Registration(long int registrationId, long int studentId, long int courseCode,const string& registrationDate, const string& status, const string& paymentStatus)
-    : registrationId(registrationId), studentId(studentId), courseCode(courseCode),
-      registrationDate(registrationDate), status(status), paymentStatus(paymentStatus) {}
-
-
-long int getRegistrationId() const {
-    return registrationId;
-}
+    Schedule(long int studentId, long int courseCode, const string& semester,const string& days, const string& room)
+    : studentId(studentId), courseCode(courseCode), semester(semester), days(days), room(room) {}
 
 long int getStudentId() const {
     return studentId;
@@ -34,16 +25,16 @@ long int getCourseCode() const {
     return courseCode;
 }
 
-const string& getRegistrationDate() const {
-    return registrationDate;
+const string& getSemester() const {
+    return semester;
 }
 
-const string& getStatus() const {
-    return status;
+const string& getDays() const {
+    return days;
 }
 
-const string& getPaymentStatus() const {
-    return paymentStatus;
+const string& getRoom() const {
+    return room;
 }
 
 };
