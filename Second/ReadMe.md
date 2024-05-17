@@ -1,6 +1,6 @@
 # Report on University Registration System Components
 
-  The university registration system comprises several key components encapsulated within separate header files and the main program file. Each component plays a crucial role in managing various aspects of student enrollment, course registration, and administrative functions.
+<span> The university registration system comprises several key components encapsulated within separate header files and the main program file. Each component plays a crucial role in managing various aspects of student enrollment, course registration, and administrative functions.
 
 ### Waitlist.h:
 
