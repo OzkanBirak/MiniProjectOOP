@@ -7,14 +7,11 @@
 using namespace std;
 
 int main() {
-    // Create some sample courses
+    // Create some courses
     Course course1(101, "Introduction to Programming", 3, "Dr. Smith", CourseType::LECTURE);
     Course course2(102, "Data Structures", 4, "Dr. Johnson", CourseType::LAB);
-
-
-    //bizim dersler
     Course course3 (103, "General Physics I", 4, "Dr. M. Fatih Hasoglu", CourseType::LECTURE);
-    Course course4 (103, "General Physics II", 4, "Dr. M. Fatih Hasoglu", CourseType::LECTURE);
+    Course course4 (104, "General Physics II", 4, "Dr. M. Fatih Hasoglu", CourseType::LECTURE);
     Course course5 (105, "Technical English", 3, "Prof. Robert Harris", CourseType::LECTURE);
     Course course6 (106, "Calculus", 4, "Dr. Laura Chen", CourseType::LECTURE);
     Course course7 (107, "Introduction to Computer Science", 3, "Dr. John", CourseType::LECTURE);
@@ -29,16 +26,14 @@ int main() {
     Course course16 (116, "Machine Learning", 4, "Dr. Sophia Anderson", CourseType::LECTURE);
     Course course17 (117, "Machine Learning Lab", 4, "Dr. Sophia Anderson", CourseType::LAB);
     Course course18 (118, "Natural Language Processing", 3, "Prof. Emily Thompson", CourseType::LECTURE);    
-    Course course19 (120, "Full-Stack Web Development" , 4, "Prof. Jane Doe", CourseType::LECTURE);
-    Course course20 (121, "Full-Stack Web Development Lab", 4, "Prof. Jane Doe", CourseType::LAB);
+    Course course19 (119, "Full-Stack Web Development" , 4, "Prof. Jane Doe", CourseType::LECTURE);
+    Course course20 (120, "Full-Stack Web Development Lab", 4, "Prof. Jane Doe", CourseType::LAB);
     
 
     // Display available courses
     cout << "Available Courses:" << endl;
     course1.displayCourseInfo();
     course2.displayCourseInfo();
-
-    //sonradan eklenen dersler
     course3.displayCourseInfo();
     course4.displayCourseInfo();
     course5.displayCourseInfo();
