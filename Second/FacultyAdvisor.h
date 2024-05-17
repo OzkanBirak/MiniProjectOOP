@@ -8,7 +8,7 @@ using namespace std;
 
 class FacultyAdvisor {
 public:
-void FacultyAdvisor::adviseStudent(Student* student) {
+void adviseStudent(Student* student) {
     // Logic for advising student
     cout << "Advising student " << student->getName() << endl;
 }
